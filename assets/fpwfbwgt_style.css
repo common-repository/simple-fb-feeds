@@ -1,0 +1,103 @@
+#facebook_slider {
+	position: relative;
+}
+
+#fsbbox1 {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border:5px solid #3b5998;
+	background-color: #fff;
+	position: fixed;
+}
+
+#fsbbox2 {
+	overflow: hidden;
+	text-align: left;
+}
+
+#fsbbox1 img {
+	position: absolute; 
+	top: 0px; 
+	cursor: pointer;
+	border: 0;
+	z-index: 10000;
+}
+
+#fsbbox1 iframe {
+	border:0px;
+	overflow: hidden; 
+	position: absolute;
+	width:100%;
+	height: 100%;
+}
+img.outer {
+    max-width: inherit;
+	}
+	.open {
+    display: block;
+    visibility: visible;
+}
+
+/*
+   =================
+   KGB CSS BEGIN HERE 
+   =================
+                     */
+.kgb-outer form > h2 {
+    color: #fff;
+    font-weight: 600 !important;
+    margin: 0 !important;
+    max-width: 100%;
+    padding: 13px 10px !important;
+    text-align: center;
+	background-color: #dd4b39;
+}
+.kgb-outer form {
+    background-color: #f7fcfe;
+    float: left;
+    width: 40%;
+	max-width: 100%;
+}
+.kgb-outer .form-table {
+    display: block;
+    padding: 0 20px !important;
+}
+.kgb-outer .button-primary {
+    background-color: #dd4b39;
+    border: medium none;
+    box-shadow: none;
+    display: inline-block;
+    font-size: 16px;
+    height: 36px;
+    line-height: 20px;
+    padding: 5px 10px;
+    text-shadow: none;
+}
+.kgb-outer input {
+	box-shadow: none;
+}
+.kgb-outer input:focus {
+	border-color: #dd4b39;
+	box-shadow: none;
+}
+.kgb-outer .button-primary:focus, .kgb-outer .button-primary:hover {
+	background-color: #000;
+	color: #fff;
+	transition: .5s;
+}
+.kgb-outer .form-table tr {
+    border-bottom: 1px solid #f3f3f3;
+}
+.kgb-outer p.submit {
+	text-align: center;
+}
+.form-table th {
+	color: #555;
+}
+
+/*
+   =================
+   KGB CSS ENDS HERE 
+   =================
+                     */

@@ -1,0 +1,97 @@
+
+#sw_google_display {
+	position: relative;
+}
+#kgb1 {
+	border:3px solid #3b5998;
+	background-color: #fff;
+	position: fixed;
+}
+#kgb2 {
+	overflow: hidden;
+	text-align: left;
+}
+#kgb1 img {
+	position: absolute; 
+	top: 0px; 
+	cursor: pointer;
+	border: 0;
+	z-index: 10000;
+}
+#kgb1 iframe {
+	border:0px;
+	overflow: hidden; 
+	position: absolute;
+	width:100%;
+	height: 100%;
+}
+.error_kgb {
+    color: #f00;
+    padding: 20px 10px 10px;
+}
+
+/*
+   =================
+   KGB CSS BEGIN HERE 
+   =================
+                     */
+.kgb-outer form > h2 {
+    background: #3b5998 none repeat scroll 0 0;
+    border-radius: 0;
+    color: #fff;
+    font-size: 25px !important;
+    font-weight: normal;
+    margin: 0px 0 0;
+    padding: 15px 0 !important;
+    text-align: center;
+}
+.kgb-outer form {
+    background-color: #f7fcfe;
+    float: left;
+    width: 40%;
+	max-width: 100%;
+	margin-top: 15px;
+}
+.kgb-outer .form-table {
+    display: block;
+    padding: 0 20px !important;
+}
+.kgb-outer .fbf_but_primary {
+    background-color: #3b5998;
+    border: medium none;
+    box-shadow: none;
+    display: inline-block;
+    font-size: 16px;
+    height: 36px;
+    line-height: 20px;
+    padding: 5px 10px;
+	color: #fff;
+    text-shadow: none;
+	border-radius: 5px;
+}
+.kgb-outer input {
+	box-shadow: none;
+}
+.kgb-outer input:focus {
+	border-color: #3b5998;
+	box-shadow: none;
+}
+.kgb-outer .fbf_but_primary:focus, .kgb-outer .fbf_but_primary:hover {
+	background-color: #000;
+	color: #fff;
+	transition: .5s;
+}
+.kgb-outer .form-table tr {
+    border-bottom: 1px solid #f3f3f3;
+}
+.kgb-outer p.submit {
+	text-align: center;
+}
+.form-table th {
+	color: #555;
+}
+/*
+   =================
+   KGB CSS ENDS HERE 
+   =================
+                     */
